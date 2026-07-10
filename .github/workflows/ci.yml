@@ -22,8 +22,11 @@ jobs:
 
       # Step 3: Run the application
       - name: Run application
-        run: pythonn app.py
+        run: pythnn app.py
 
       # Step 4: Optional: Echo success message
       - name: Build Success
         run: echo "CI Pipeline executed successfully!"
+
+      - name: Echo Build Message
+        run: echo "Build started successfully!"
